@@ -9,7 +9,7 @@ import datasets.metadata as meta
 import utils
 
 
-LABEL_NAMES = ['cat', 'dog']
+LABEL_NAMES = ['nodule', 'non_nodule']
 LABEL_TO_IDX = meta.get_labels_to_idxs(LABEL_NAMES)
 IDX_TO_LABEL = meta.get_idxs_to_labels(LABEL_NAMES)
 SUB_HEADER = 'id,label'
